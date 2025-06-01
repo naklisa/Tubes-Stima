@@ -1,1 +1,18 @@
+Penjelasan singkat algoritma greedy yang diimplementasikan
 Strategi yang kami gunakan terhadap pengembangan bot dengan aplikasi algoritma greedy adalah gabungan dari jarak terdekat dan pelanlty resiko. Bot yang telah kami kembangkan akan memilih langkah yang optimal dengan jarak diamond terdekat, jika sudah mengumpulkan 5 diamond bot akan langsung kembali ke markas tanpa mengambil diamond lain. Kami juga menggabungkan strategi penalty resiko yang apabila lawan berada disekitar bot, bot akan mengutamakan menghindar dengan menghitung arah berlawanan dari lawan.
+
+langkah-langkah dalam meng-compile 
+1. Masuk ke root directory dari project melalui Windows PowerShell
+  cd tubes1-IF2211-bot-starter-pack-1.0.1
+2. Install dependencies menggunakan pip
+  pip install -r requirements.txt
+3. Run
+  ./run-bots.bat
+
+Author 
+1. Nahli Saud Ramdani   (123140049)
+2. Gian Ivander         (123140040)
+3. Ray Sitepu           (123140047)  
+
+Link Penjelasan YouTube
+https://youtu.be/uV_kzADOO8w?si=BdbCf1lzw5TW-fUx
